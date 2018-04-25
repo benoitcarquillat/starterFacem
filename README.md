@@ -1,17 +1,3 @@
-# The "WordPress Bootstrap Sass Blank" Theme
-Bootstrap Sass Blank Theme is a WordPress Blank Theme, with Bootstrap 4 and Sass included. This theme is based on [Minimal Blank Theme](https://github.com/edouardl/minimal-blank-theme) for all the WordPress/PHP code and well inspired by [MonsieurPress](https://github.com/davidmanson/monsieurpress/) for the use of Gulp and some great hierarchical ideas.
-
-The main purpose of Bootstrap Sass Blank Theme is to give you a complete theme architecture (with Boostrap 4 and Sass including, like the name said) to start developping your own theme.
-It's a blank theme, you don't need to delete any code, just add yours.
-
-
-## Prerequisites
-- know Sass
-- npm installed
-- git installed
-- active WordPress installation
-- (optional) livereload plugin installed in your browser
-
 
 ## How to
     $ git clone https://github.com/edouardl/bt-sass-blank-theme [your_theme_name]
