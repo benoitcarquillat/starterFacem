@@ -1,3 +1,4 @@
+<?php /*
 <!doctype html>
 <html <?php language_attributes(); ?>>
 
@@ -15,5 +16,10 @@
 </head>
 <body <?php echo body_class(); ?>>
 	<header id="header" role="banner">
+		<nav>
+			Je suis la nav y'a quoi? 
+		</nav>
 	</header>
 	<section id="content" role="main">
+
+?>

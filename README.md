@@ -1,6 +1,10 @@
+## Initial project from :
+
+https://github.com/edouardl/bt-sass-blank-theme
+
 
 ## How to
-    $ git clone https://github.com/edouardl/bt-sass-blank-theme [your_theme_name]
+    $ git clone https://github.com/benoitcarquillat/starterFacem.git [your_theme_name]
     $ cd [your_theme_name]
     $ npm install
     $ gulp
@@ -26,16 +30,6 @@ By default all modules are loaded, but you can comment any Bootstrap module you 
 Morover, to create your own Bootstrap theme, you can use Bootstrap Magic to generate your variables.scss file
 ### WordPress snippets
 If you're not comfortable with WordPress snippets to add components and customize them, you can use [WP Hasty](https://www.wp-hasty.com/) to generate them
-
-
-## Known issue(s)
-- Message during sass gulp task execution : "boostrap-sass is incompatible with eyeglass 1.2.1, needed eyeglass ^0.7.1" ; in fact it works so it doesn't matter
-
-
-## Changelog
-Version 1.1
-- Update to Boostrap 4
-- change the theme css file from style.css to dist/css/theme.css
 
 Version 1.0
 - Initial

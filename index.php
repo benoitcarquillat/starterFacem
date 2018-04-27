@@ -1,11 +1,7 @@
-<?php get_header(); ?>
-<section class="entry-section">
+@layout('template-parts.app')
 
-
-<div class="container">
-	<h1>Bonjour ! connard</h1>
-</div>
-
-
-</section>
-<?php get_footer(); ?>
+@section('content')
+	<div class="container">
+		<p>Bonjour je suis le contenu de la home</p>
+	</div>
+@endsection
