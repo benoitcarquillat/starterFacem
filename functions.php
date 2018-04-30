@@ -3,6 +3,7 @@
 include('inc/enqueues.php');
 include('inc/excerpt.php');
 
+include('inc/customCode/nav.php');
 /**
 * Don't hesitate to use the WP code snippet generator Hasty : https://www.wp-hasty.com/
 */
@@ -42,10 +43,8 @@ if( !isset( $content_width ) ) {
  * cf : http://codex.wordpress.org/Function_Reference/wp_nav_menu
  *
  */
-register_nav_menus( array(
-    'main_menu' => __( 'Main menu', 'bsbt' ) //@TODO : change i18n domain name to yours
-) );
 
+register_nav_menu( 'primary', __( 'Primary Menu', 'starterFacem' ) );
 
 /**
  * register sidebars

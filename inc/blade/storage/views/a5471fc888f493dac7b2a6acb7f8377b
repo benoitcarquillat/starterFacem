@@ -1,0 +1,18 @@
+<?php // C:\wamp64\www\starterFacem/wp-content/themes/starterFacem/page.php ?>
+
+<?php \Laravel\Section::start('content'); ?>
+
+<?php
+if( have_posts() ): the_post();
+
+    // Load default block template page
+    get_template_part('template-parts/page/content', 'default');
+
+endif;
+?>
+
+<?php wp_link_pages(); ?>
+
+
+<?php \Laravel\Section::stop(); ?>
+<?php echo view('template-parts.app')->with(get_defined_vars())->render(); ?>

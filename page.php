@@ -1,15 +1,24 @@
-<?php get_header(); ?>
-<section class="entry-section">
+@layout('template-parts.app')
 
-    <?php
-    if( have_posts() ): the_post();
+@section('content')
 
-        // Load default block template page
-        get_template_part('template-parts/page/content', 'default');
+<?php
+if( have_posts() ): the_post();
 
-    endif;
-    ?>
+    // Load default block template page
+    get_template_part('template-parts/page/content', 'default');
 
-	<?php wp_link_pages(); ?>
-</section>
-<?php get_footer(); ?>
+endif;
+?>
+
+<?php wp_link_pages(); ?>
+
+
+@endsection
+
+
+
+
+
+
+
