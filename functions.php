@@ -87,3 +87,19 @@ function theme_remove_emojis() {
   remove_action( 'wp_head', 'print_emoji_detection_script', 99 );
 }
 //add_action( 'init', 'theme_remove_emojis' ); //@TODO: Uncomment if you don't need emojis and want to optimize your site
+
+
+
+
+$cutlass_includes = array(
+  'inc/blade.php',                  // Load Laravel's Blade Templating Engine
+);
+
+foreach ($cutlass_includes as $file) {
+  if (!$filepath = locate_template($file)) {
+    trigger_error(sprintf(__('Error locating %s for inclusion', 'cutlass'), $file), E_USER_ERROR);
+  }
+
+  require_once $filepath;
+}
+unset($file, $filepath);

@@ -3,6 +3,11 @@
 https://github.com/edouardl/bt-sass-blank-theme
 
 
+## Blade template :
+
+https://fr.wordpress.org/plugins/blade/
+
+
 ## How to
     $ git clone https://github.com/benoitcarquillat/starterFacem.git [your_theme_name]
     $ cd [your_theme_name]

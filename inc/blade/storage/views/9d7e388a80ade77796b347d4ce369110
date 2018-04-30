@@ -1,0 +1,8 @@
+<?php // C:\wamp64\www\starterFacem/wp-content/themes/starterFacem/index.php ?>
+
+<?php \Laravel\Section::start('content'); ?>
+	<div class="container">
+		<p>Bonjour je suis le contenu de la home</p>
+	</div>
+<?php \Laravel\Section::stop(); ?>
+<?php echo view('template-parts.app')->with(get_defined_vars())->render(); ?>
